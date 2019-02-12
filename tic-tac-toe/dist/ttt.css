@@ -1,0 +1,46 @@
+    /* $li.css('display', 'block');
+    $li.css('width', '60px');
+    $li.css('background-color', 'gray');
+    $ul.css('display', 'flex');
+    $ul.css('width', '180px'); //figure this out
+    $ul.css('flex-wrap', 'wrap'); */
+
+  .grid {
+    display: flex;
+    width: 186px;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+  }
+  
+  .square {
+    display: block;
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black
+  }
+  .clickedSquare {
+    display: block;
+    font-size: 40px;
+    text-decoration-style: solid; 
+    text-align: center;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black
+  }
+
+  .square:hover {
+    background: yellow;
+    cursor: pointer;
+  }
+
+
+  /* .input{
+    backgroud: white;
+
+   } */
